@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dafi - Frontend Web Developer</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/resets.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/" class="brand-logo">Dafi.</a>
+      <nav id="nav-list">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <button id="nav-toggle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-menu"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </header>
+    <main>
+      <!-- home section -->
+      <div id="home">
+        <aside class="home-side-left">
+          <img src="./assets/images/avatar.jpg" alt="Dafi" class="home-side-left-img" />
+          <h1 class="home-side-left-title">Halo! Saya Dafi N. Maulana</h1>
+        </aside>
+        <article class="home-side-right">
+          <h3 class="home-side-right-title">
+            Seorang Frontend web developer yang berlokasi di Jawa Barat
+          </h3>
+          <p class="home-side-right-subtitle">
+            Mempunyai semangat tinggi untuk terus menyajikan tampilan menarik di halaman website
+          </p>
+          <div class="home-side-right-cta">
+            <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+            <a href="#portfolio" class="btn btn-secondary">Portofolio</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- about section -->
+      <div id="about">
+        <div id="about-wrapper">
+          <article>
+            <h2 class="section-title">Tentang saya</h2>
+            <p id="about-description">
+              Saya adalah seorang Web Developer yang sudah mempunyai pengalaman sekitar 2 tahun.
+              Cukup mahir dalam menggunakan berbagai library dan framework seperti React, Vue,
+              Tailwind CSS, dan Bootstrap. Selain itu, saya juga cukup familiar dengan Laravel saat
+              mengembangkan aplikasi web full-stack.
+            </p>
+          </article>
+
+          <div>
+            <h2 class="section-title">Pengalaman</h2>
+
+            <!-- kodingkeun -->
+            <div class="accordion-wrapper">
+              <label for="kodingkeun" class="accordion-trigger">
+                <div class="accordion-trigger-brand">
+                  <img src="./assets/images/logo_kodingkeun.jpeg" alt="Logo Kodingkeun" />
+                  <div class="accordion-caption">
+                    <h3>Frontend Web Developer</h3>
+                    <small>
+                      <strong> PT. Kodingkeun Digital Solution </strong> | Juli 2022 - Desember 2024
+                    </small>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-chevron-down"
+                >
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </label>
+              <input type="checkbox" id="kodingkeun" />
+
+              <div>
+                <article>
+                  <p>
+                    Berfokus pada menyajikan desain website yang menarik secara visual dan
+                    fungsional yang memenuhi keinginan klien sambil memastikan pengalaman pengguna
+                    yang optimal dan responsif di semua perangkat.
+                  </p>
+                  <p>
+                    Pengalaman ini meningkatkan keterampilan saya dalam desain web, pengembangan
+                    front-end, dan prinsip-prinsip desain yang berpusat pada pengguna, sehingga saya
+                    dapat berkontribusi secara efektif dalam berbagai proyek digital.
+                  </p>
+                </article>
+              </div>
+            </div>
+
+            <!-- tomafood -->
+            <div class="accordion-wrapper">
+              <label for="tomafood" class="accordion-trigger">
+                <div class="accordion-trigger-brand">
+                  <img src="./assets/images/logo_tomafood.webp" alt="Logo tomafood" />
+                  <div class="accordion-caption">
+                    <h3>Admin Sales</h3>
+                    <small> <strong> PT. Tomafood </strong> | Nov 2022 - Feb 2023 </small>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-chevron-down"
+                >
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </label>
+              <input type="checkbox" id="tomafood" />
+
+              <div>
+                <article>
+                  <p>
+                    Mengelola pesanan masuk dari pelanggan menggunakan aplikasi akuntansi bernama
+                    <em>Accurate</em>, memastikan entri data yang akurat dan pembuatan faktur yang
+                    tepat waktu. Bekerja sama dengan tim keuangan untuk pembayaran dan mengatur
+                    jadwal pengiriman dengan tim logistik untuk memastikan pengiriman yang cepat dan
+                    akurat.
+                  </p>
+                  <p>
+                    Bekerja sama dengan tim gudang, Memantau ketersediaan stok untuk menyelaraskan
+                    penawaran menu dengan bahan-bahan yang tersedia. Saya juga menganalisis data
+                    penjualan untuk menentukan pilihan menu yang layak. Selain itu, saya memberikan
+                    dukungan pelanggan melalui WhatsApp dan telepon, menyelesaikan pertanyaan dan
+                    memastikan kelancaran transaksi.
+                  </p>
+                </article>
+              </div>
+            </div>
+
+            <!-- cigs -->
+            <div class="accordion-wrapper">
+              <label for="cigs" class="accordion-trigger">
+                <div class="accordion-trigger-brand">
+                  <img src="./assets/images/logo_cigs.png" alt="Logo cigs" id="logo_cigs" />
+                  <div class="accordion-caption">
+                    <h3>Junior Programmer</h3>
+                    <small>
+                      <strong> PT. CIGS Indonesia Digital </strong> | Jul 2021 - Okt 2021
+                    </small>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-chevron-down"
+                >
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </label>
+              <input type="checkbox" id="cigs" />
+
+              <div>
+                <article>
+                  <p>
+                    Mengelola pesanan masuk dari pelanggan menggunakan aplikasi akuntansi bernama
+                    <em>Accurate</em>, memastikan entri data yang akurat dan pembuatan faktur yang
+                    tepat waktu. Bekerja sama dengan tim keuangan untuk pembayaran dan mengatur
+                    jadwal pengiriman dengan tim logistik untuk memastikan pengiriman yang cepat dan
+                    akurat.
+                  </p>
+                  <p>
+                    Bekerja sama dengan tim gudang, Memantau ketersediaan stok untuk menyelaraskan
+                    penawaran menu dengan bahan-bahan yang tersedia. Saya juga menganalisis data
+                    penjualan untuk menentukan pilihan menu yang layak. Selain itu, saya memberikan
+                    dukungan pelanggan melalui WhatsApp dan telepon, menyelesaikan pertanyaan dan
+                    memastikan kelancaran transaksi.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- portfolio section -->
+      <div id="portfolio">
+        <div id="portfolio-wrapper">
+          <!-- header -->
+          <div id="portfolio-header">
+            <h1 class="section-title">Portofolio</h1>
+
+            <div class="portfolio-item-controls">
+              <button id="prev">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-arrow-left"
+                >
+                  <line x1="19" y1="12" x2="5" y2="12"></line>
+                  <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+              </button>
+
+              <button id="next">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-arrow-right"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- portfolio lists -->
+          <ul id="portfolio-list"></ul>
+        </div>
+      </div>
+
+      <!-- contact section -->
+      <div id="contact">
+        <h2 class="section-title">Hubungi saya</h2>
+        <form action="" id="contact-form">
+          <div class="input-group">
+            <label for="subject">Subjek</label>
+            <input type="text" name="subject" id="subject" required />
+          </div>
+          <div class="input-group">
+            <label for="message">Pesan</label>
+            <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023 Dafi N. Maulana</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
